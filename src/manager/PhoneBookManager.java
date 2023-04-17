@@ -6,10 +6,11 @@ import model.Contact;
 import model.Type;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 public class PhoneBookManager extends PhoneAbstract implements IPhone {
-    public ArrayList<Contact> phoneBook;
+    public List<Contact> phoneBook;
 
     public PhoneBookManager() {
         phoneBook = new ArrayList<>();
